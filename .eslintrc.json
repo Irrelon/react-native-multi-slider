@@ -1,0 +1,35 @@
+{
+	"rules": {
+		"comma-dangle": [2,"never"],
+		"no-dupe-args": 2,
+		"no-dupe-keys": 2,
+		"no-duplicate-case": 2,
+		"no-ex-assign": 2,
+		"no-extra-boolean-cast": 2,
+		"no-unreachable": 2,
+		"valid-jsdoc": 1,
+		"valid-typeof": 2,
+		"eqeqeq": [2,"smart"],
+		"no-undefined": 2,
+		"arrow-parens": [2,"always"],
+		"arrow-spacing": [2,{"before":true,"after":true}],
+		"constructor-super": 2,
+		"prefer-const": 2
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 6,
+		"ecmaFeatures": {
+			"jsx": true,
+			"modules": true
+		}
+	},
+	"plugins": [
+		"react"
+	],
+	"env" : {
+		"browser" : true,
+		"node" : true,
+		"es6" : true
+	}
+}
